@@ -1,1 +1,8 @@
 /public/
+
+__pycache__
+*.vectorized_metadata
+.tmp/
+*.vectorized_content
+.noteablekeep
+*.py[cod]
