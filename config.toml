@@ -1,7 +1,8 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://example.com/"
+#baseURL = "https://example.com/"
+baseURL = "https://yangxuze.github.io/"
 title = "xyz的生活博客"
 languageCode = "zh-CN"
 hasCJKLanguage = true
