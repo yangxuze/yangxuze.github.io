@@ -6,3 +6,5 @@ __pycache__
 *.vectorized_content
 .noteablekeep
 *.py[cod]
+.idea/
+*.iml
