@@ -437,8 +437,8 @@ uglyURLs = false
     homeLogoLink = "/home/"
     homeTitle = "yxz的杂记"
     homeMotto = "易·象·辞"
-    homeDescription = "一个关于生活点滴的博客，记录生活中的零碎想法"
-    homeKeywords = "关键词：真理、美德、形而上学、哲学、物理、诗歌、阿波罗、狄俄尼索斯、尼采、《查拉图斯特拉如是说》、神话、未来、科幻、赛博朋克、反乌托邦、开源、太空"
+    homeDescription = "记录生活中的零碎想法，也整理阅读、技术与思想的长期笔记"
+    homeKeywords = "关键词：生活、文学、艺术、科学、经济、哲学、技术、阅读、旅行、思考"
     homeLinksDelimiter = "·"
 
     ## 「文章摘要」
@@ -455,7 +455,7 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "个关于哲学的博客，目标是构建一个宏大的体系。关键词：真理、美德、形而上学、哲学、物理、诗歌、阿波罗、狄俄尼索斯、尼采、《查拉图斯特拉如是说》、神话、未来、科幻、赛博朋克、反乌托邦、开源、太空。"
+    siteDescription = "一个记录生活、阅读与技术思考的个人博客，主题涵盖生活札记、文学艺术、科学技术、经济与哲学。"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 

@@ -47,10 +47,10 @@ body, .back-to-top, ::-webkit-scrollbar-track {
 }
 
 .main {
-    padding-top: 5em;
+    padding-top: 4em;
 }
 .single {
-    padding-bottom: 22em;
+    padding-bottom: 18em;
 }
 
 .menu {
@@ -64,7 +64,7 @@ body, .back-to-top, ::-webkit-scrollbar-track {
 }
 
 .single .main-inner {
-    margin-top: 7em;
+    margin-top: 5em;
 }
 .list-group {
     margin-top: -2em;
@@ -78,8 +78,8 @@ body, .back-to-top, ::-webkit-scrollbar-track {
 
 .post {
     background-color: #fcfaf2;
-    padding: 6em;
-    margin: -6em;
+    padding: 5em;
+    margin: -5em;
 }
 
 .back-to-top {
@@ -139,6 +139,23 @@ pre {
     .menu, .back-to-top {
         background-color: #eee;
     }
+    .menu {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 0.25em 0;
+        padding: 0.4em 0;
+    }
+    .menu-item a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.15em;
+        line-height: 1.35;
+        padding: 0.25em 0;
+    }
+    .menu-item-name {
+        display: block;
+    }
     .single .main-inner {
         width: auto;
         margin-top: 0;
@@ -150,7 +167,7 @@ pre {
         margin: 0;
     }
     .post {
-        padding: 0;
+        padding: 1.25em 0;
         margin: 0;
     }
     .tag-cloud {
